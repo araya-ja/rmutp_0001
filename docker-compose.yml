@@ -8,7 +8,7 @@ services:
       - POSTGRES_DB=araya
       - POSTGRES_USER=araya
       - POSTGRES_PASSWORD=araya
-  web:
+  app:
     image: prawee/strapi:latest
     container_name: my_app_compose
     ports:
